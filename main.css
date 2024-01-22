@@ -127,8 +127,6 @@ button:hover, .button:hover {
   .product__description {
     font-size: 16px;
   }
-
-  .product__button {}
 }
 
 /* Product Size Block */
@@ -204,6 +202,11 @@ button:hover, .button:hover {
 @media (max-width:425px) {
   .product_size__title {
     font-size: 26px;
+  }
+
+  .product__img {
+    width: 100%;
+    max-height: 250px;
   }
 }
 
